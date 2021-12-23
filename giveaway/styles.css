@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: 400;
+}
+h4{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.gift-img img{
+    width: 40rem;
+    height: 40rem;
+}
+.gift-info{
+    min-width: 40rem;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+.giveaway{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+.deadline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.deadline-format{
+    min-width: 5rem;
+    max-width: 5rem;
+    margin: 1rem;
+    padding: 0.1rem;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: orange;
+}
+.deadline-format h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+span{
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.amd-ryzen2{
+    font-size: 1.5rem;
+    font-family: fantasy;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.description{
+    padding-top:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.heading-info{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-left: 1.25rem;
+}
+.show-more{
+    min-width: 5rem;
+    min-height: 3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Show / hide description */
+.description-div{
+    display: none;
+}
+.show-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 2rem 0rem 2rem;
+}
+.long-description{
+   font-size: 1rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 400;
+}
