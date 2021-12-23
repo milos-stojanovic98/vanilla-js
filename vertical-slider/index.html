@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical slider</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f2b5d82844.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="slider-container">
+      <!-- left slide-->
+      <div class="left-slide">
+        <div style="background: blue">
+          <h1>FIFA 22</h1>
+          <p>
+            FIFA 22 is Powered by Football, and features groundbreaking new
+            HyperMotion gameplay technology on PlayStation 5, Xbox Series X|S,
+            and Stadia.
+          </p>
+        </div>
+        <div style="background: red">
+          <h1>NBA 2k22</h1>
+          <p>
+            NBA 2K22 is the latest title in the world-renowned, best-selling NBA
+            2K basketball video game series, create your own legacy on the
+            blacktop.
+          </p>
+        </div>
+        <div style="background: green">
+          <h1>New World</h1>
+          <p>
+            New World is a massively multiplayer online role-playing game
+            (MMORPG) developed by Amazon Games Orange County and published by
+            Amazon Games released on September 28, 2021.
+          </p>
+        </div>
+        <div style="background: black">
+          <h1>Elden Ring</h1>
+          <p>
+            Elden Ring is an upcoming action role-playing game developed by
+            FromSoftware and published by Bandai Namco Entertainment.
+          </p>
+        </div>
+      </div>
+      <!-- right slide-->
+      <div class="right-slide">
+        <div style="background-image: url('./img/elden-ring.jpeg')"></div>
+        <div style="background-image: url('./img/new-world.jpg')"></div>
+        <div style="background-image: url('./img/nba.jpg')"></div>
+        <div style="background-image: url('./img/fifa.jpg')"></div>
+      </div>
+      <!-- buttons -->
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down fa-lg"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
