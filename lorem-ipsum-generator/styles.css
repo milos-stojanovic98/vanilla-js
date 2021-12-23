@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Lucida Sans';
+    color: blue;
+    padding-bottom: 1rem;
+}
+.lorem-text{
+    margin-top: 2rem;
+    width: 75vw;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.amount-label{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    background-color: lightblue;
+    height: 2rem;
+    width: 7rem;
+}
+#amount{
+    height: 2rem;
+}
