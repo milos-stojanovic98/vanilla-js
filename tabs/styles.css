@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    box-sizing: border-box;
+}
+body {
+    background: #F4E185;
+    color: black;
+  }
+/* content positioning */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* title and paragraph positioning */
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: 100;
+}
+h4{
+    font-size: 1.4rem;
+    font-family: Verdana;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 3rem;
+}
+h5{
+    font-size: 1.2rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+p{
+    font-size: 1.2rem;
+    font-family: Verdana;
+    padding: 1rem;
+}
+ul {
+    list-style-type: square;
+    padding-left: 2.8rem;
+  }
+a {
+    text-decoration: none;
+  }
+
+/* columns container */
+.columns-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+ /* first column background image*/
+.first-img img{
+    border-radius: 0.8rem;
+    height: 20rem;
+    object-fit: cover;  
+}
+/* second column */
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #71DFE7;
+    margin: 0rem 1rem 0rem 1rem;
+    width: 35rem;
+    padding: 0.2rem;
+}
+ /* second column buttons */
+ .btn-container{
+    display:flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.tab-btn{
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    font-family: Verdana;
+    color: black;
+    background-color: white;
+}
+/* hovering buttons */
+.tab-btn:hover{
+    background-color: #C2FFF9;
+}
+/* active buttons colors */
+.tab-btn.active{
+    background: #009DAE;
+}
+ /* second column paragraphs */
+.second-content{
+    padding: 1rem;
+}
+
+/* hiding content */
+.content{
+    display: none;
+}
+/* showing content */
+.content.active{
+    display: block;
+}
+ 
+ 
